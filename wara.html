@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html >
+<head>
+
+    
+    <meta  http-equiv =" X-UA-Compatible " content =" ie=edge " >
+    <meta name =" descr" content =" ancho=ancho-del-dispositivo, escala-inicial=1.0 ">
+    <meta= UTF-8>
+    <meta >
+    <title>Wara Grupo Inmobiliario</title>
+ 
+    <!--  <style>
+body{
+        background: url(../imagen/conralla.jpg)
+            ;background-size: cover;
+    }   
+    </style> -->
+    <style>
+body{background-color: rgb(116, 62, 62);}
+
+    </style>
+
+    
+
+
+</head>
+<link rel="stylesheet" href="estilos.css">
+<body>
+    <header class="palo" >
+   <div class="ancho"  >
+    <div class="logo" >  <h1>  <a href="">   WARA   </a>   </h1> 
+        <small>Grupo Inmobiliario</small>  </div>
+ <nav >
+    <ul >     
+        
+       <li> <a href=" ">INICIO    </a></li>
+    <li> <a href=" "> ESPACIO   </a></li>
+    <li> <a href=""> empresa      </a> </li>
+    <li> <a href="">  servicio  </a> </li>
+    <li> <a href=""> proyectos  </a>   </li>
+    <li> <a href=""> contactos  </a>  </li> 
+</ul> </nav>    </div>
+</header>
+
+<principal >
+
+          <h2 class="titulo">
+             <span class="typed"></span>
+         </h2> 
+         
+               <div class="titulo" id="cadenas-texto"> 
+ <p >Nosotros hacemos que tus inversiones se conviertan en   <br>  <i class="mascota">multifamiliares</i></p>
+  <p>Nosotros hacemos que tus inversiones se conviertan en  <br> <i class="mascota">habilitaciones urbanas</i></p>
+ <p>Nosotros hacemos que tus inversiones se conviertan en  <br> <i class="mascota">compras antes de un remate</i></p>
+        </div> 
+</principal >
+<div class="eso">
+    Contacto >>  </div>
+
+<div class="eso2">
+      Servicio </div>
+<script  src =" https://cdn.jsdelivr.net/npm/typed.js@2.0.11 " > </script>
+<script src= "main.js" > </script>
+
+
+<div class = "caja1"> <br> 
+    <center> <h2>Materiales de Calidad </h2>  </center> <br>
+    <p>Nos preocupamos por la calidad de los materiales 
+    con los que construimos, para que tu proyecto perdure en el tiempo</p>
+    </div>
+    <div class="caja2"   > <br> <center> <h2> Equipo experimentado </h2>  </center>   <br> 
+    <p>  Contamos con un equipo experimentado en cada area de la construcción,
+         que garantiza la calidad del trabajo</p>   
+    
+    </div>
+    
+    <div class="caja3" > <br><CEnter><h2>Eventos</h2> </CEnter> <br>
+     <center><br> <P>  Trabajamos con los ultimos software de diseño 
+        y las ultimas tecnologias de construcción cuidando cada detalle.      </P>  </center></div>
+    
+    <div class="caja4" > <img src="../imagen/amanecer.jpg" alt="" >  <h4 class="h4"> PROYECTOS </h4> 
+         <p class="p">cuidamos cada detalle de los 
+        proyectos que tenemos y damos un mejor futuro a nuestros nuevos clientes </p> </div>
+<div class="reloj">
+ <div class="contador"> 
+    <div > <img src="edificio.png" class="img"> </div>
+    <div class="cantidad" id="numero1">0 </div>
+    <div class="top"> construidos</div>
+
+</div>
+
+<div class="contador2"> 
+    <div > <img src="edificio.png" class="img"> </div>
+    <div class="cantidad2" id="numero2">0 </div>
+    <div class="top">socios</div>
+
+</div>
+
+<div class="contador3"> 
+    <div > <img src="edificio.png" class="img"> </div>
+    <div class="cantidad3" id="numero3">0 </div>
+    <div class="top">socios</div>
+
+</div>
+
+</div>
+
+<div class="caja6"  >
+    <div  class="imagen1"><img src="wara.jpg" width="300" height="300" > </div> 
+   <div class="imagen2">  <img src="wara.jpg" width="300"height="300"   >    </div>
+   <div class="imagen3">  <img src="wara.jpg" width="300" height="300"  >   </div>
+   
+   <div class="pisos">  <h3>pisos</h3>   </div>
+   <div class="casas"><h3>casas</h3></div>
+   <div class="rojo"> <h3>sdddddddddddddddddddasas</h3></div>
+</div>
+
+<div class="caja7-form">
+     <div class="caja7-form__primer">primer cuadrado</div > 
+     <div class="caja7-form__segundo">segundo cuadrado</div>
+    <div class="caja7-form__tercero">tercer cuadrado</div>
+    <div class="caja7-form__cuarto"> cuarto cuadrado</div>
+</div>
+
+<script> 
+let numero1=document.getElementById("numero1")
+let numero2=document.getElementById("numero2")
+let numero3=document.getElementById("numero3")
+let cant1=0,cant2=0,cant3=0
+tiem=25
+let tiempo1= setInterval(() => {
+    numero1.textContent=cant1+=1
+  if(cant1===5)
+  {
+      clearInterval(tiempo1)
+  }
+
+
+}, 300);
+let tiempo2= setInterval(() => {
+    numero2.textContent=cant2+=1
+  if(cant2===100)
+  {
+      clearInterval(tiempo2)
+  }
+
+
+}, 300);
+let tiempo3= setInterval(() => {
+    numero3.textContent=cant3+=1
+  if(cant3===100)
+  {
+      clearInterval(tiempo3)
+  }
+
+
+}, 300);
+
+</script>
+</body>
+
+
+</html>

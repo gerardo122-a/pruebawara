@@ -1,0 +1,378 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+header {width: 100%;
+/* esto lo puedes activar si el color de fondo es feo  background-color: #1ABC9C;*/
+background-color: rgb(106, 108, 109);
+height: 50%;}
+.ancho{width: 80%;
+    height: 80px;
+    /*background-color: aqua;*/
+    margin: auto;
+}
+.palo{position: sticky;
+top: 0;
+}
+.logo{width: 30%;
+height: 70px;
+/*background-color: blue;*/
+float: left;
+padding-top: 10px;
+box-sizing: border-box;
+}
+.logo h1 a {
+    color: #fff;
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+.logo h1 a:hover{ color: #444;}
+nav{ 
+    width: 70%;
+    height: 70px;
+float: left;
+text-align: right;
+padding-top: 24px;
+box-sizing: border-box;
+}
+nav ul li  { 
+    display: inline;
+}
+nav ul li a { 
+    color: #fff;
+    font-size: 13px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 15px ;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+nav ul li a:hover { color: #444;} 
+/*copie texto si no borrar*/
+
+.body{background-color: #555;}
+    /*background-image: url("../imagen/conralla.jpg");}*/
+
+.titulo  {background: #ccc;
+    height: 50px ;
+    width: 800px;
+    margin: 2rem auto ;
+    text-align: center;
+
+
+}
+.eso {  
+    
+   line-height: 3;
+    border: 1px solid rgb(41, 40, 40);
+   height: 50px;
+   width: 200px;
+   border-radius: 20px;
+   text-transform: uppercase;
+ text-align: center;
+ position: relative;
+ left: 400px;
+   top: 350px;
+  display: inline-block;
+
+
+}
+.eso2{ 
+    line-height: 3;
+    text-align: center;
+    border: 1px solid rgb(5, 5, 5) ;
+height: 50px;
+width: 200px;
+border-radius: 20px;
+text-transform: uppercase;
+font: "arial";
+position: relative;
+left: 500px;
+top: 350px;
+display: inline-block;
+}
+/*para darle color a los contactos y servicios sus letras*/
+.eso:hover{ color: red}
+.eso2:hover{color:blue}
+
+.caja1{border:  5px solid rgb(106, 108, 109);
+width: 310px;    
+ height: 250px; 
+ position: relative;
+ right: 300px;
+  top: 603px;
+  display: inline-block;
+ }
+ .caja2{border:  5px solid rgb(106, 108, 109);
+    width: 310px;    
+     height: 250px; 
+     position: relative;
+     right: 270px;
+      top: 605px;
+      display: inline-block;
+     }
+     .caja3{border:  5px solid rgb(106, 108, 109);
+        width: 310px;    
+         height: 250px; 
+         position: relative;
+         left: 830px;
+          top: 343px;
+          display: inline-block;
+         }
+.caja4{border: 5px solid rgb(106, 108, 109);
+
+   background:rgba(57, 58, 58, 0.452) ;
+     height: 400px;  
+    position: relative ;     
+  top: 438px;
+}
+.caja4 img { border-radius: 20px ; 
+    width: 470px ;
+    height: 300px ;
+    position: relative;
+    left: 10%;
+    top: 14%;   
+}
+.caja4 h4  { border: 5px solid red;
+    
+    width: 420px ;
+    height: 200px ;
+    position: relative;
+    left: 51%;
+    top: -49%;   
+}
+.caja4 p {border: 5px solid red;
+width: 400px ;
+    height: 80px ;
+    position: relative;
+    left: 51%;
+    top:-90%;   }
+
+    /*es la primera  caja de contador*/
+
+.reloj{ 
+ border: 10px solid black;
+
+height: 500px;  
+position: relative ;     
+top: 490px;
+}
+
+.contador{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    border: 5px solid red;
+    background-color: #fff;
+    display: inline-block;
+    margin :auto;
+    width: 300px ;
+    height: 200px ;
+    position: relative;
+    left: 100px;
+ top: 100px}
+ 
+.contador img{
+    position: absolute;
+    width: 80px; height: 80px;
+    position: relative;
+    left: 35%;
+    top: 10px;
+
+   }
+
+
+ .cantidad{height: 100%;
+   width: 100%;
+   font-size: 1.5cm;
+   font-family: sans-serif;
+   font-weight: bold;
+   color: #555;
+   position: absolute;
+   top: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+/*es otra caja de contador*/
+
+.contador2{ 
+    display: flex;
+        justify-content: center;
+        align-items: center;
+    border: 5px solid red;
+    background-color: #fff;
+    margin: 50px;
+    width: 300px ;
+    height: 200px ;
+    position: relative;
+    left: 100px;
+ top: 100px;
+display: inline-block;
+}
+ 
+.contador2 img{
+    position: absolute;
+    width: 80px; height: 80px;
+    position: relative;
+    left: 35%;
+    top: 10px;
+   
+   }
+
+ .cantidad2{height: 100%;
+   width: 100%;
+   font-size: 1.5cm;
+   font-family: sans-serif;
+   font-weight: bold;
+   color: #555;
+   position: absolute;
+   top: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+.contador2 img{
+    position: absolute;
+    width: 80px; height: 80px;
+    position: relative;
+    left: 35%;
+    top: 10px;
+
+   }
+
+/*es otra caja de contador*/
+
+.contador3{ 
+    display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    
+    border: 5px solid red;
+    background-color: #fff;
+    margin: 20px;
+    width: 300px ;
+    height: 200px ;
+    position: relative;
+    left: 80px;
+    top: 100px;
+ display: inline-block;
+
+}
+ 
+.contador3 img{
+    position: absolute;
+    width: 80px; height: 80px;
+    position: relative;
+    left: 35%;
+    top: 10px;
+
+   }
+
+
+ .cantidad3{height: 100%;
+   width: 100%;
+   font-size: 1.5cm;
+   font-family: sans-serif;
+   font-weight: bold;
+   color: #555;
+   position: absolute;
+   top: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;}
+    /*segund caja gandre ocupa el segundo medio de abajo*/
+    .caja6{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     border: 5px solid black;
+
+    background:linear-gradient(rgba(5, 7, 12, 0.75),rgba(5, 7, 12, 0.75)),
+     url(./plano.jpg) 
+    no-repeat center center fixed;
+    background-size: cover ;
+
+        
+          height: 540px;  
+         position: relative ;     
+       top: 550px;
+     }
+     
+     /* las imagenes del rectagulo */
+
+     .imagen1 { 
+    
+         margin: 30px;
+         position: relative;
+         top: 10px;
+         left: 270px;
+         display: inline-block;
+     }
+     .imagen2{
+       
+        display: inline-block;
+        margin: 30px;
+        position: relative;
+        top: 10px;
+        left: 270px;
+       
+        
+     }
+     .imagen3{ 
+        display: inline-block;
+        margin: 30px;
+        position: relative;
+        top: 10px;
+        left: 270px;
+     }
+
+     /* dentro del rectangulo grande las letras pequeños*/
+
+     
+
+     .pisos{ 
+        margin: 30px;
+        border:3px solid black;
+        position: inherit;
+    top: 200px;
+    right: 700px;;
+      display: inline-block;
+    }
+    .casas{
+        margin: 30px;
+        border:3px solid black;
+        position: inherit;
+    top: 200px;
+    right: 410px;
+       display: inline-block;
+  
+    }
+  
+    .rojo{
+        margin: 30px;
+        border:3px solid black;
+        position: inherit;
+    top: 200px;
+    right: 270px;
+    display: inline-block;
+    }
+
+    .caja7-form
+{   
+    border: 10px solid  #555; 
+    height: 500px;
+   width: 1242px;
+    position: relative;
+    top: 650px;
+
+}
